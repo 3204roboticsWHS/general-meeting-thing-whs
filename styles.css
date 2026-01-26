@@ -2,7 +2,7 @@
 
 .titlediv {
     border-radius: 15px;
-    background-image: linear-gradient(to right,yellow, black);
+    background-image: linear-gradient(to right,yellow, #222222);
     border-color: black;
     border-width: 2px;
     border-style: solid;
@@ -30,6 +30,10 @@ img {
     border-radius: 15px;
     position: relative;
     margin: 20px;
+    background-color: #ffaaaa;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #headsup {
@@ -44,4 +48,21 @@ img {
 
 .genmeet > p, h2{
     padding: 10px;
+}
+
+input{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+html{
+    background-color: #ffffbb;
+}
+
+.center {
+    text-align: center;
 }
